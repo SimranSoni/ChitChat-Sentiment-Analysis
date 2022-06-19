@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  backend:
+    image: s199/backend
+    ports:
+      - 8002:8002
+  react-app:
+    image: s199/frontend
+    ports:
+      - 3000:3000
+
+
